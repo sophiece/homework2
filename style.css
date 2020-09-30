@@ -1,0 +1,17 @@
+ body {
+background:grey;
+
+ }
+
+ #main-block {
+max-width: 1132px;
+background: blue;
+
+ }
+
+ #column-1 {
+background: blueviolet;
+width: 802px;
+height: 700px;
+
+ }
