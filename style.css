@@ -1,17 +1,114 @@
  body {
-background:grey;
+background: #7A7585;
+font-family: 'IBM Plex Sans', sans-serif;
 
  }
 
  #main-block {
 max-width: 1132px;
-background: blue;
+margin: 0 auto;
+background:red;
 
  }
 
  #column-1 {
-background: blueviolet;
+background:#343337;
 width: 802px;
 height: 700px;
 
+
  }
+
+ header {
+background: black;
+height: 48px;
+border-radius: 10px;
+padding: 16px 16px;
+
+ }
+
+#top-menu {
+float: right;
+padding-top: 4px;
+
+}
+
+li {
+
+display: inline;
+
+
+}
+
+ul {
+  padding: 0px;
+  margin:0;
+
+
+  
+}
+
+
+#top-menu a {
+    font-size: 14px;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 40px;
+    border-radius: 99px;
+
+}
+#top-menu a:hover {
+  background-color:grey;
+  padding: 10px 20px;
+
+}
+
+#top-menu a.active {
+  background-color:#133774;
+  padding: 10px 20px;
+
+}
+
+.sec1 {
+  margin: 48px 24px;
+}
+
+h1 {
+color: white;
+display: inline;
+font-size: 34px;
+
+
+}
+
+.list1 {
+  float: right;
+  background-color:black;
+  border-radius: 12px;
+
+
+}
+.list1 a {
+
+color: white;
+text-decoration: none;
+padding: 10px 20px;
+line-height: 40px;
+font-size: 20px;
+
+}
+
+
+@media only screen and (max-width: 1132px) {
+    body {
+      background-color: lightblue;
+      
+    }
+    #main-block,
+#column-1 {
+width:100%;
+
+}
+  }
+
